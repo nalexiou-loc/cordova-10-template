@@ -71,6 +71,7 @@
 	<plugin name="cordova-plugin-fingerprint-aio" spec="2.0.0"/>
 	<plugin name="cordova-plugin-wkwebview-engine" spec="1.2.1" />
 	<plugin name="cordova-plugin-add-swift-support" spec="2.0.2" />
+	<plugin name="@zestia/cordova-plugin-wkwebview-engine-windowopen" spec="1.0.1" />
 <!-- 	<plugin name="phonegap-plugin-push" spec="2.2.3" /> -->
 
 	<!--  used to define a single default icon which will be used for all platforms. -->
