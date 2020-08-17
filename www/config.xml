@@ -34,7 +34,7 @@
 
 	<feature name="http://api.phonegap.com/1.0/device" />
 
-	<preference name="phonegap-version" value="cli-10.0.0" />
+	<preference name="cordova-version" value="cli-10.0.0" />
 	<preference name="permissions" value="none" />
 	<preference name="target-device" value="universal" />
 	<preference name="fullscreen" value="false" />
