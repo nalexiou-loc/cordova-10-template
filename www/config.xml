@@ -34,7 +34,7 @@
 
 	<feature name="http://api.phonegap.com/1.0/device" />
 
-	<preference name="phonegap-version" value="cli-9.0.0" />
+	<preference name="phonegap-version" value="cli-10.0.0" />
 	<preference name="permissions" value="none" />
 	<preference name="target-device" value="universal" />
 	<preference name="fullscreen" value="false" />
@@ -68,7 +68,6 @@
 	<plugin name="phonegap-plugin-barcodescanner" spec="8.0.0" />
 	<plugin name="cordova-plugin-inappbrowser" spec="https://github.com/nalexiou-loc/cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-fingerprint-aio" spec="2.0.0"/>
-	<plugin name="cordova-plugin-wkwebview-engine" spec="1.2.1" />
 	<plugin name="cordova-plugin-add-swift-support" spec="2.0.2" />
 	<plugin name="@zestia/cordova-plugin-wkwebview-engine-windowopen" spec="1.0.1" />
 <!-- 	<plugin name="phonegap-plugin-push" spec="2.2.3" /> -->
@@ -112,12 +111,7 @@
 	</platform>
 
 	<platform name="ios">
-		<feature name="CDVWKWebViewEngine">
-			<param name="ios-package" value="CDVWKWebViewEngine" />
-		</feature>
-		<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
-		<preference name="WKWebViewOnly" value="true" />
-
+		<preference name="deployment-target" value="13.0.0" />
 		<edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
 			<string>This allows uploading pictures from photo library and sharing it with the store.</string>
 		</edit-config>
