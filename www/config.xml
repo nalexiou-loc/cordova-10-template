@@ -55,9 +55,9 @@
 	<preference name="AutoHideSplashScreen" value="true" />
 	<preference name="SplashScreenDelay" value="8000"/>
 <!-- 	<preference name="UseLegacySwiftLanguageVersion" value="true" /> -->
-			<!-- maybe not used -->
-	<preference name="scheme" value="app" />
-	<preference name="hostname" value="localhost" />
+			
+<!-- 	<preference name="scheme" value="app" />
+	<preference name="hostname" value="localhost" /> -->
 	
 	<plugin name="cordova-android-support-gradle-release" spec="3.0.1" />
 	<plugin name="cordova-plugin-statusbar" spec="2.4.3" />
