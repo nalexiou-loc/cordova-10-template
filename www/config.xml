@@ -55,6 +55,9 @@
 	<preference name="AutoHideSplashScreen" value="true" />
 	<preference name="SplashScreenDelay" value="8000"/>
 <!-- 	<preference name="UseLegacySwiftLanguageVersion" value="true" /> -->
+			<!-- maybe not used -->
+	<preference name="scheme" value="app" />
+	<preference name="hostname" value="localhost" />
 	
 	<plugin name="cordova-android-support-gradle-release" spec="3.0.1" />
 	<plugin name="cordova-plugin-statusbar" spec="2.4.3" />
@@ -69,8 +72,9 @@
 	<plugin name="cordova-plugin-inappbrowser" spec="https://github.com/nalexiou-loc/cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-fingerprint-aio" spec="2.0.0"/>
 	<plugin name="cordova-plugin-add-swift-support" spec="2.0.2" />
-	<plugin name="@zestia/cordova-plugin-wkwebview-engine-windowopen" spec="1.0.1" />
+<!-- 	<plugin name="@zestia/cordova-plugin-wkwebview-engine-windowopen" spec="1.0.1" /> -->
 <!-- 	<plugin name="phonegap-plugin-push" spec="2.2.3" /> -->
+
 
 	<!--  used to define a single default icon which will be used for all platforms. -->
 	<icon src="www/res/icon.png" />
@@ -174,5 +178,6 @@
 	<access origin="*" />
 	<allow-intent href="*" />
 	<allow-navigation href="*" />
+
 
 </widget>
